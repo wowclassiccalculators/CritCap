@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Critcap Calculator</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <h1>Critcap Calculator</h1>
+    <div id="calculator">
+        <label for="miss">P(Miss):</label>
+        <input type="number" id="miss" step="any"><br>
+        
+        <label for="dodge">P(Dodge):</label>
+        <input type="number" id="dodge" step="any"><br>
+        
+        <label for="block">P(Block):</label>
+        <input type="number" id="block" step="any"><br>
+        
+        <label for="parry">P(Parry):</label>
+        <input type="number" id="parry" step="any"><br>
+        
+        <label for="glance">P(Glance):</label>
+        <input type="number" id="glance" step="any"><br>
+        
+        <label for="critSup">Crit Suppression:</label>
+        <input type="number" id="critSup" step="any"><br>
+        
+        <button onclick="calculateCritcap()">Calculate</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
