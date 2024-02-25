@@ -7,5 +7,5 @@ function calculateCritcap() {
     const critSup = parseFloat(document.getElementById('critSup').value);
     
     const critcap = 100 - pMiss - pDodge - pBlock - pParry - pGlance + critSup;
-    document.getElementById('result').innerText = `Critcap: ${critcap.toFixed(2)}`;
+    document.getElementById('result').innerText = `Crit Cap: ${critcap.toFixed(2)}`;
 }
